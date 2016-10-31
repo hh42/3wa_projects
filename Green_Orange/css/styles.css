@@ -1,0 +1,245 @@
+body
+	{
+		font-family: Arial,sans-serif;
+	}
+
+/*Enveloppe tout le contenu du body*/
+.wrapper
+	{
+		width: 700px;
+		margin: 0 auto;
+	}
+
+/*logo+baniere+location about us*/
+.header
+	{	
+		margin-left: 100px;
+		margin-top: 35px;
+		background-image:url('../pics/header_bg.png');
+		background-repeat: no-repeat;
+		height: 280px;
+		width: 500px;
+	}
+
+#logo img
+	{
+		margin-top: 65px;
+	}
+
+.sub
+	{
+	margin-left: 15px;
+	width: 150px;	
+	}
+
+#location
+	{
+		color: #9B9B9B;
+		font-family: Arial, sans-serif;
+	}
+
+#aboutus
+	{
+		color: #949494;
+		font-weight : normal;
+		font-family: Arial, sans-serif;
+		letter-spacing: -1px;
+		font-size: 125%;
+	}	
+
+/*Navigation*/
+li 
+	{
+		float:left;
+		background-color: #6EAB20;
+		margin-right: 4px;
+		width: 75px;
+		border-radius: 5px 5px 0 0;
+	}
+
+.navi li a
+	{
+		text-decoration: none;
+		font-weight: bold;
+		color:#FFFFFF;
+		font-size: 0.8em;
+		padding: 5px 10px 5px 10px;
+	}	
+
+#navzone 						/*ligne vert en dessous du nav*/
+	{
+		width: 700px; 
+		border-bottom: 2px solid;
+		border-bottom-color: #7BAE2F;
+	}
+
+.navi 							/*decalage*/
+	{
+		margin-left: 350px;
+	}
+
+nav span
+	{
+		margin-right: 5px;
+	}
+
+#div_center
+{
+	margin: auto;
+	width: 640px;
+}
+
+.presentation
+	{
+		margin-top:  30px;
+	}
+
+.body
+	{
+		margin-left: 20px;	
+	}	
+
+#who
+	{
+		float: left;
+		width: 200px;
+		margin-right: 10px;
+		border-right: 2px solid;
+		border-right-color: #EBEBEB;
+		margin-left: 20px;
+	}
+
+
+#imgwho
+	{
+	/*	width: 250px;	*/
+		margin-bottom: 20px;
+		margin-right: 30px;
+	}	
+
+.txtwho
+	{
+		float: left;
+		width: 180px;
+		margin-left: 5px;
+		font-size: 0.70em;
+	}
+
+#what
+	{
+		float: left;
+		width: 400px;
+	}	
+
+.whattop
+	{
+		float: left;
+		margin-left: 20px;
+	}
+
+
+#imgwhat
+	{
+	/*	width: 175px;	*/
+		margin-bottom: 15px;
+		float: left;
+	}
+
+
+.txtwhat
+	{
+		width: 250px;
+		margin-left: 15px;
+		font-size: 0.70em;
+		padding-bottom: 0px;
+		float: left;
+	}	
+
+#subwhat
+	{
+		margin-top: 5px;
+	}	
+
+div.clear
+	{
+		clear:both;
+	}
+
+.puce
+	{
+		font-size: 0.6em;
+		background-image:url('../pics/puce.png');
+		background-repeat: repeat-y;
+		margin-left: 25px;
+		height: 17px;
+		background-color: #EBEBEB;
+		border: 1.5px solid; 					/*equivalent de style + width*/
+		border-color: #FAFEFB;
+		border-radius: 7px;
+		width: 360px;
+	}
+
+.subtxt
+	{
+	width: 300px;
+	float: left;
+	margin-top: 3px;
+	margin-left: 20px;
+	color: #74B126;
+	font-weight : bold;
+	}
+
+div .read a
+	{
+		font-size: 0.8em;
+		font-style: arial;
+		font-weight: bold;
+		color: #FFBA00;
+		text-decoration: none;	
+
+	}
+
+.read
+	{
+		margin-top: 17px;
+		color: #FDB60C;
+		float: left;
+		margin-left: 5px;
+	}	
+
+#readwhat
+	{
+		margin-left: 30px;
+	}
+
+
+h1  {
+		font-family: Arial, sans-serif;
+		font-weight : normal;
+		color: #FFBA00;
+		font-size: 1.7em;
+		margin-bottom: 7px;
+	}	
+
+h2  { 
+		font-family: Arial,sans-serif;
+		margin-left: 5px;
+		font-size: 0.8em;
+		font-weight: bold;
+		color: #AD390E;
+		margin-bottom: 10px;
+		float: left;
+	}
+
+footer
+	{
+		font-weight : normal;
+		font-family: Arial, sans-serif;
+		color: #949494;
+		margin-left: 380px;
+		margin-top: 35px;
+		font-size: 0.55em;
+	}	
+
+	element se chevauchant affiché au premier blanc :
+ex : 2 element se superposent, le deuxieme declaré est affiché au premier plan
