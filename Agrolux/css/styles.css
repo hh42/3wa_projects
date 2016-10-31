@@ -1,0 +1,486 @@
+
+.clearfix:after{
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.clearfix{
+    display: block;
+}
+html[xmlns].clearfix{
+    display: block;
+}
+*.clearfix{
+    height: 1%;
+}
+
+.fixwidth
+{
+	width: 21%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.fixwidth img
+{
+	width:100%;
+}
+
+/*============================// BODY //===============================*/
+
+body 
+{
+	background-color: #212121;
+	background-image: url('../img/bg_body.jpg');
+	background-position: center top;
+	background-repeat: no-repeat;
+	margin: auto;
+	font: .8125em/1.4 'Helvetica Neue', sans-serif;
+	padding-top: 75px;
+}
+
+.wrapper
+{
+	width: 100%;
+	max-width: 1150px;
+	margin: 0 auto;
+}
+
+h1,h2,h3
+{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+}
+
+h3
+{
+	color: #BA9B61;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+/*============================// HEADER  //=============================*/
+header
+{
+	background-color: rgba(0,0,0,0.7);
+}
+
+.headwrap
+{
+	padding: 30px 65px;			/*nav : 45px top et 65px right*/
+	padding-bottom: 0px;
+}
+
+nav
+{
+	float: right;
+	margin-top: 15px;
+	margin-right: 8px;
+}
+
+nav ul li
+{
+	display: inline-block;
+	padding: 5px 30px;
+	background-color: #535351;
+	margin-bottom: 4px;
+}
+
+ul li a
+{
+	text-decoration: none;
+	font-size: 20px;
+	color: #FFFFFF;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+}
+
+ul li:hover{background-color:#D68909;}
+
+.imgtop
+{
+	padding: 30px 75px;
+}
+
+header .imgtop img
+{
+	width: 100%;
+}
+
+/*=============================// MIDPART //==============================*/
+.midpart 
+{
+	background-color: #202020;
+	padding: 35px 65px 0 65px;
+	box-shadow: 0 5px 5px 1px #000000;
+}
+
+.txt 
+{
+	margin-bottom: 20px;
+	float: left;
+	border-left: solid 1px #000000;
+	width: 21%;
+}
+
+.txtdebut
+{
+	padding-left: 0px;
+	padding-right: 0px;
+	border-left: 0px;
+	width: 23%;
+}
+
+h1
+{
+	color: #FFFFFF;
+	font-size: 28px;
+	font-weight: bold;
+	margin-bottom: 35px;
+}
+
+.txt p 
+{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-size: 12px;
+	padding-right: 20px;
+	color: #646464;
+	width: 100%;
+}
+
+.txt a 
+{
+	text-decoration: none;
+	color: #D68909;
+	font-weight: bold;
+}
+
+.txt a .arrow
+{
+	height:8px;
+	width: 10px;
+	padding-left: 10px;
+	background-image: url('../img/sprite.png');
+	background-repeat: no-repeat;
+	background-position: 100% 12%;
+	display: inline-block;
+}
+
+h2
+{
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.produit
+{
+	float: left;
+}
+
+.produit p 
+{
+	margin: 35px 0;
+	color: #646464;
+	font-size: 12px;
+	width: 100%;
+}
+
+.midtop
+{
+	border-bottom: solid 1px #000000;
+	width: 100%;
+}
+
+#divimg1
+{
+	height: 280px;
+	border-left: solid 1px #000000;
+}
+
+.midmid
+{
+	margin: 35px 0;
+	border-bottom: solid 1px #000000;
+	width: 100%;
+
+}
+
+.client
+{
+	width: 21%;
+	padding: 0 2%;
+	float: left;
+}
+
+.client a
+{
+	width: 100%;
+}
+
+.client a img
+{
+	width: 100%
+}
+
+/*================================// FOOTER //==================================*/
+
+
+footer
+{
+	padding: 35px 0 0 65px;
+	background-color: #1B1B1B;
+	box-shadow: 0 5px 5px 1px #000000;
+}
+
+footer img
+{
+	float: left;
+}
+
+footer div
+{
+	float: left;
+	margin-left: 50px;
+	margin-bottom: 40px;
+}
+
+footer div p 
+{
+	color: #616161;
+	font-size: 12px;
+}
+
+#news
+{
+	width: 240px;
+}
+
+#news p 
+{
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+#email
+{
+	width: 155px;
+	height: 30px;
+	float:left;
+	font-size: 14px;
+	padding-left: 5px;
+	background-color: #444444;
+	color: #FFFFFF;
+	border: 0px;
+}
+
+#submitbutton
+{
+	float: left;
+	width: 65px;
+	height: 32px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #D77301;
+	color: #FFFFFF;
+	border: 0px;
+	cursor: pointer;
+}
+
+
+/*==========================// Media Queries: Tablette //===========================*/
+
+
+/*=======// Generale //========*/
+
+@media only screen and (max-width:1150px) {
+
+h1,h2
+{
+	font-size: 20px;
+}
+
+h3
+{
+	margin-bottom: 10px;
+}	
+
+body 
+{
+ padding-top: 0;
+}
+
+/*========// header //========*/
+
+.headwrap
+{
+	padding: 30px 25px;
+	padding-bottom: 0px;
+}
+
+.headwrap img
+{
+	float: none;
+}
+
+nav
+{
+	float: none;
+}
+
+nav ul li
+{
+	padding: 5px 30px;
+}
+
+nav ul li a
+{
+	font-size: 20px;
+}
+
+.imgtop
+{ 
+	padding: 0 3%;
+	padding-bottom: 3%;
+	padding-top: 3%;
+
+}
+
+/*=======// Middle Part //========*/
+.midpart
+{
+	padding: 35px 40px;
+}
+
+.midtop div p
+{
+	font-size: 13px;
+}
+
+.txt p 
+{
+	font-size: 13px;
+}
+
+/*=======// Footer //========*/
+footer
+{
+	padding-bottom: 30px;
+	padding-left: 3%;
+}
+
+footer div p 
+{
+	font-size: 13px;
+	width: 100%
+}
+					
+#imgfooter 						/* 17+18+18+18.5+23 = 93.5% */
+{
+	margin-left: 0;				/* padding : 3+1+1.5=5.5% */
+	width: 17%
+}
+
+#imgfooter img
+{
+	width: 100%
+}
+
+#info
+{
+	width: 18%;
+	margin-left: 3%;
+}
+
+#posts
+{
+	width: 18%;
+	margin-left: 1%;
+}
+
+#extra
+{
+	width: 18.5%;
+	margin-left: 1.5%;
+}
+
+#news
+{
+	width: 23%;
+	margin-left: 0;
+}
+
+#news form input
+{
+	border-radius: 5px;
+}
+
+#news form #submitbutton
+{
+	margin-top: 10px;
+}
+
+#emial
+{
+	width: 85%;
+}
+
+#submitbutton
+{
+	width: 40%;
+}
+/*===========================================================================*/
+
+/*==========================// Media Queries: Smartphone //===========================*/
+
+
+@media only screen and (max-width:760px) {
+
+body
+{
+	background-position: left top;
+	padding-top: 25px;
+}
+
+.headwrap img
+{
+	float: none;
+	width: 65%;
+}
+
+nav
+{
+	float: none;
+	margin-top: 25px;
+	margin-bottom: 
+}
+
+nav ul li 
+{
+	display: block;
+	padding: 10px 0;
+	padding-left: 60px;
+	margin-bottom: 5px;
+	background-color: rgba(239,239,239,0.1);
+}
+
+nav ul li a 
+{
+	font-size: 24px;
+	font-weight: normal;
+	font-family: arial;
+}
+
+.imgtop
+{ 
+	padding-bottom: 8%;
+	padding-top: 9%;
+	/*background-color: #FF0000;*/
+}
+
+}
